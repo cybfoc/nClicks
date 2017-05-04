@@ -1,0 +1,21 @@
+@import '../libs/vars';
+@import '../libs/functions';
+@import '../libs/mixins';
+
+///
+/// 
+/// ut-c.in | @utcorp
+/// Free for personal and commercial use under the CCA 3.0 license (ut-c.in/license)
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+	}
